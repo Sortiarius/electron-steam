@@ -14,7 +14,7 @@ describe("electron-steam", () => {
 
     it("doesn't create unauthorized user", async () => {
         const steam = new ElectronSteam("token");
-        const e = await steam.authenticate((steamUser) => {
+        steam.authenticate((steamUser) => {
            expect(steamUser).toBeNull();
            expect(steam.user).toBeNull();
         });
@@ -22,7 +22,7 @@ describe("electron-steam", () => {
 
     it("doesn't load a token", async () => {
         const steam = new ElectronSteam("token");
-        const e = await steam.authenticate((steamUser, steamToken) => {
+        await steam.authenticate((steamUser, steamToken) => {
             expect(steamToken).toBeNull();
             expect(steam.token).toBeNull();
         });
