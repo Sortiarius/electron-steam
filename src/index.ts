@@ -225,4 +225,4 @@ class ElectronSteam {
   }
 }
 
-export {ElectronSteam};
+export { ElectronSteam };

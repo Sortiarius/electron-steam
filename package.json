@@ -1,6 +1,6 @@
 {
   "name": "electron-steam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalist steam OpenAPI authentication for Electron.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,11 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": ["electron", "steam", "openid"],
+  "keywords": [
+    "electron",
+    "steam",
+    "openid"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
