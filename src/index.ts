@@ -232,5 +232,5 @@ export {
   SteamUser,
   SteamPlayerVisibility,
   SteamPlayerState,
-  ElectronSteamNextFunction
+  ElectronSteamNextFunction,
 };
