@@ -225,4 +225,12 @@ class ElectronSteam {
   }
 }
 
-export { ElectronSteam };
+export {
+  ElectronSteam,
+  AuthenticationOptions,
+  ElectronSteamProfileToken,
+  SteamUser,
+  SteamPlayerVisibility,
+  SteamPlayerState,
+  ElectronSteamNextFunction
+};
